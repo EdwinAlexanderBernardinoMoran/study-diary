@@ -1,0 +1,21 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores e IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# Configuración local de Claude Code (personal de cada usuario)
+.claude/settings.local.json
+
+# Logs y archivos temporales
+*.log
+*.tmp
+
+# Variables de entorno y secretos (por si se añaden en el futuro)
+.env
+.env.*

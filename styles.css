@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  background: #f3f4f8;
+  color: #1f2430;
+}
+
+.contenedor {
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 24px 16px 48px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.6rem;
+  margin: 0 0 20px;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin: 28px 0 12px;
+}
+
+.racha {
+  text-align: center;
+  background: linear-gradient(135deg, #ff9a3c, #ff5e3a);
+  color: #fff;
+  border-radius: 20px;
+  padding: 24px 16px;
+  margin-bottom: 20px;
+}
+
+.racha-numero {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.racha-texto {
+  margin-top: 8px;
+  font-size: 1rem;
+}
+
+.racha-mejor {
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  font-size: 0.95rem;
+}
+
+.tarjeta {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+input {
+  font: inherit;
+  font-weight: 400;
+  padding: 10px 12px;
+  border: 1px solid #d5d8e0;
+  border-radius: 10px;
+  background: #fff;
+}
+
+input:focus {
+  outline: 2px solid #5b6cff;
+  border-color: transparent;
+}
+
+button {
+  font: inherit;
+  font-weight: 600;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #5b6cff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #4958e0;
+}
+
+.lista {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.sesion {
+  background: #fff;
+  border-radius: 12px;
+  padding: 14px 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.sesion-tema {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.sesion-fecha {
+  font-size: 0.85rem;
+  color: #6b7080;
+  margin-top: 2px;
+}
+
+.sesion-minutos {
+  white-space: nowrap;
+  font-weight: 600;
+  color: #5b6cff;
+}
+
+.vacio {
+  text-align: center;
+  color: #6b7080;
+}
